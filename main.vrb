@@ -1,0 +1,22 @@
+\frametitle{2C: Areal mellom funksjonene f og g i python (hvis dere vil)}
+\begin{minted}[fontsize=\footnotesize]{python}
+from pylab import *
+
+def f(x):
+  return (x+4)**0.5      # f(x) = kvadratroten av (x+4)
+
+def g(x):
+  return x**2 - 1        # g(x) = x^2 - 1
+
+# Skjæringspunktene mellom f og g (løst på forhånd)
+a = -1.5969  # Nedre grense
+b =  1.8489  # Øvre grense
+
+# Lager en liste med 100 jevnt fordelte x-verdier mellom a og b
+x = linspace(a, b, 100)
+
+# Arealet mellom f og g finner vi ved å integrere (f(x) - g(x))
+# Her bruker vi trapesmetoden (numerisk tilnærming)
+svar = trapezoid(f(x) - g(x), x)
+print(svar) # Oputput: 6.927568467295032
+\end{minted}

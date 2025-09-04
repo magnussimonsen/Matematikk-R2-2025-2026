@@ -1,0 +1,279 @@
+\section{1A: Tallfølger}
+
+\blueheader
+\begin{frame}
+\frametitle{1A: Tallfølger}
+\begin{blue*}{Tallfølger}
+Tilfeldig tallfølge
+\begin{equation*}
+\{3,\,-1,\,7,\,7,\,2\}
+\end{equation*}
+
+Endelig tallfølge av partall
+\begin{equation*}
+\{2,\,4,\,6,\,8,\,10,\,12\}
+\end{equation*}
+
+Uendelig følge av oddetall
+\begin{equation*}
+\{1,\,3,\,5,\,7,\,9,\,\ldots\}
+\end{equation*}
+\end{blue*}
+\end{frame}
+
+\blueheader
+\begin{frame}
+\frametitle{1A: Formler for tallfølger}
+\begin{blue*}{Formler for partall og oddetall}
+\begin{equation*}
+a_n = 2n, \qquad n=1,2,3,\ldots
+\end{equation*}
+
+\medskip
+\begin{equation*}
+b_n = 2n-1, \qquad n=1,2,3,\ldots
+\end{equation*}
+
+Eksempler:
+\begin{equation*}
+\{a_n\} = \{2,\,4,\,6,\,8,\,10,\,\ldots\}
+\end{equation*}
+
+\medskip
+\begin{equation*}
+\{b_n\} = \{1,\,3,\,5,\,7,\,9,\,\ldots\}
+\end{equation*}
+\end{blue*}
+\end{frame}
+
+\redheader
+\begin{frame}
+\frametitle{1A: To måter å skrive en tallfølge på}
+
+Tallfølger kan beskrives på to måter:
+\begin{itemize}
+    \item Ved å \textbf{skrive opp leddene} i rekkefølge, f.eks. 
+    \[
+    \{2,\,4,\,6,\,8,\,10,\,\ldots\}
+    \]
+    \item Ved å \textbf{angi en formel} for det $n$-te leddet, f.eks.
+    \[
+    a_n = 2n
+    \]
+\end{itemize}
+
+\medskip
+Begge metodene beskriver samme tallfølge, men en formel gir oss en 
+\textbf{generell oppskrift} slik at vi kan finne hvilket som helst ledd uten å måtte skrive opp alle de foregående.
+
+\end{frame}
+
+\blueheader
+\begin{frame}
+\frametitle{1A: To typer formler for tallfølger}
+\begin{red*}{Eksplisitt formel}
+En eksplisitt formel gir en direkte oppskrift på det $n$-te leddet:
+\[
+a_n = 2n \quad \Rightarrow \quad \{2,\,4,\,6,\,8,\,\ldots\}
+\]
+Her kan vi finne $a_{100}$ rett fra formelen: $a_{100}=200$.
+\end{red*}
+
+\begin{red*}{Rekursiv formel}
+En rekursiv formel beskriver hvert ledd ut fra det forrige:
+\[
+a_1 = 2, \qquad a_{n+1} = a_n + 2
+\]
+Her må vi starte med første ledd, og bygge videre trinn for trinn.
+\end{red*}
+\end{frame}
+
+\blueheader
+\begin{frame}
+\frametitle{1A: Fibonacci-følgen}
+
+\begin{blue*}{Definisjon}
+Fibonacci-følgen er definert rekursivt ved
+\begin{equation*}
+F_1 = 1, \quad F_2 = 1, \quad F_{n+2} = F_{n+1} + F_n \quad \text{for } n \geq 1
+\end{equation*}
+\end{blue*}
+
+\begin{green*}{Eksempel}
+De første leddene blir
+\begin{equation*}
+\{1,\,1,\,2,\,3,\,5,\,8,\,13,\,21,\,\ldots\}
+\end{equation*}
+
+Her ser vi at hvert ledd er summen av de to foregående.
+\end{green*}
+
+\end{frame}
+
+\blueheader
+\begin{frame}[fragile]
+\frametitle{1A: Fibonaccitallene}
+
+\begin{green*}{Eksempel i Python}
+\begin{minted}[fontsize=\large]{python}
+# Neste tall i følgen er summen av de to foregående tallene
+# Husk at indeksene i en liste starter på 0
+
+fib_liste = [1, 1]
+
+for n in range(0, 5):
+    a_n = fib_liste[n+1] + fib_liste[n]
+    fib_liste.append(a_n)
+
+print(fib_liste)
+# Output: [1, 1, 2, 3, 5, 8, 13]
+\end{minted}
+\end{green*}
+\end{frame}
+
+
+\blueheader
+\begin{frame}
+\frametitle{1A: Rekker}
+\begin{blue*}{Definisjon}
+En \textbf{rekke} er summen av leddene i en tallfølge.  
+Hvis vi har en tallfølge
+\[
+\{a_1, a_2, a_3, \ldots\}
+\]
+så danner vi en rekke ved å summere leddene:
+\[
+S = a_1 + a_2 + a_3 + \ldots
+\]
+\end{blue*}
+\end{frame}
+
+\begin{frame}{1A: Rekker}
+\begin{green*}{Eksempel}
+En endelig rekke av partall:
+\begin{equation*}
+2 + 4 + 6 + 8 = 20
+\end{equation*}
+Her er summen $20$ den verdien rekken får.
+\end{green*}
+\end{frame}
+
+
+\blueheader
+\begin{frame}
+\frametitle{1A: Summasjonsnotasjon}
+\begin{blue*}{Definisjon}
+Summasjonsnotasjon bruker symbolet $\sum$ for å skrive summen av mange ledd på en kompakt form:
+\begin{equation*}
+\sum_{i=1}^{n} a_i = a_1 + a_2 + \ldots + a_n
+\end{equation*}
+\end{blue*}
+
+\begin{green*}{Eksempel}
+\begin{equation*}
+\sum_{i=1}^{4} 3i = 3 + 6 + 9 + 12 = 30
+\end{equation*}
+\end{green*}
+
+\end{frame}
+\blueheader
+\begin{frame}
+\frametitle{1A: Viktig med parenteser (I)}
+
+\begin{green*}{Eksempel med parenteser}
+\begin{align*}
+\sum_{i=1}^{4} (2i+3) 
+&= (2\cdot1+3) + (2\cdot2+3) + (2\cdot3+3) + (2\cdot4+3) \\
+&= 5 + 7 + 9 + 11 \\
+&= 32
+\end{align*}
+\end{green*}
+
+\end{frame}
+
+\blueheader
+\begin{frame}
+\frametitle{1A: Viktig med parenteser (II)}
+
+\begin{green*}{Eksempel uten parenteser}
+\begin{align*}
+\sum_{i=1}^{4} 2i+3 
+&= (2+4+6+8) + 3 \\
+&= 20 + 3 \\
+&= 23
+\end{align*}
+
+\medskip
+\textbf{Merk:} Parentesene avgjør hva som er med i selve summeringen.
+\end{green*}
+
+\end{frame}
+\begin{frame}
+\frametitle{1A: Summen av de hundre første heltall}
+
+\begin{red*}{Viktig eksempel}
+Vi ønsker å regne ut summen
+\begin{equation*}
+1 + 2 + 3 + 4 + \ldots + 100
+\end{equation*}
+
+Formelen for summen av de hundre første naturlige tallene er
+
+\begin{align*}
+\sum_{i=1}^{100} i 
+&= 1 + 2 + 3 + 4 + \ldots + 100 \\
+&= \frac{100 \cdot 101}{2} \\
+&= 5050
+\end{align*}
+\end{red*}
+\end{frame}
+
+\greenheader
+\begin{frame}[fragile]
+\frametitle{1A: Tallfølger og rekker i Python} 
+\begin{minted}[fontsize=\normalsize]{python}
+
+# Eksempel med for-løkke
+minListe = []
+
+for n in range(1,6):
+  minListe.append(n)
+  
+print(minListe) # Output:  [1, 2, 3, 4, 5]
+
+# Samme eksempel med List Comprehension (kommer ikke på prøver)
+minListe = [n for n in range(1, 6)]   
+
+print(minListe) # Output:  [1, 2, 3, 4, 5]
+\end{minted}
+\end{frame}
+
+\greenheader
+\begin{frame}[fragile]
+\frametitle{1A: Tallfølger og rekker i Python}
+% Eksempel 2: 10 første partall
+\begin{minted}[fontsize=\small]{python}
+# De 10 første partallene og summen
+
+# Eksempel med for-løkke
+minListe = []
+
+for n in range(1,10+1):
+  minListe.append(2*n)
+  
+print(minListe)      # Output:  [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+print(sum(minListe)) # Output: 110
+
+# Samme eksempel med List Comprehension (kommer ikke på prøver)
+minListe = [2*n for n in range(1, 10+1)]   
+
+print(minListe)      # Output:  [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
+print(sum(minListe)) # Output: 110
+
+\end{minted}
+\end{frame}
+
+
+
+
+

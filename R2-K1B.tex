@@ -1,0 +1,286 @@
+\section{1B: Bevis}
+
+\blueheader
+\begin{frame}
+\frametitle{1B: Implikasjonspilen}
+
+\begin{blue*}{Definisjon}
+Implikasjonspilen 
+\begin{center}
+$\Rightarrow$ 
+\end{center}
+brukes i logikk og matematikk for å uttrykke at en påstand medfører en annen.
+
+\medskip
+Hvis $P$ er en påstand og $Q$ er en påstand, så betyr
+\[
+P \Rightarrow Q
+\]
+at \textit{hvis $P$ er sann, så er også $Q$ sann}.
+
+\end{blue*}
+
+\end{frame}
+
+\setbeamercolor{palette primary}{bg=mygreen, fg=white}
+
+\blueheader
+\begin{frame}
+\frametitle{1B: Eksempel}
+
+Vi har to påstander.
+
+\medskip
+\begin{itemize}
+    \item[] $P$: «Du er i Harstad» \\
+    \item[] $Q$: «Du er i Troms fylke»
+\end{itemize}
+
+
+\medskip
+Da kan vi skrive
+\[
+P \Rightarrow Q
+\]
+
+Dette er en sann implikasjon, fordi det å være i Harstad innebærer å være i Troms fylke.
+
+
+\begin{red*}{Det motsatte er ikke nødvendigvis sant}
+  
+$P \Rightarrow Q$ betyr ikke nødvendigvis at $Q \Rightarrow P$.
+\end{red*}
+
+\end{frame}
+
+
+\begin{frame}
+\frametitle{1B: Direkte bevis}
+
+
+La $P$: «$n$ er et partall»  
+og $Q$: «$n^2$ er et partall».
+
+\medskip
+Vi skal bevise implikasjonen
+\[
+P \Rightarrow Q
+\]
+
+\medskip
+Anta at $P$ er sann, dvs. at $n$ er et partall.  
+Da kan vi skrive
+\[
+n = 2k \quad \text{for et heltall } k.
+\]
+
+Da blir
+\[
+n^2 = (2k)^2 = 4k^2 = 2\,(2k^2).
+\]
+
+\medskip
+Siden $n^2$ kan skrives som $2 \cdot$ (et heltall), følger det at $Q$ er sann.  
+\hfill$\blacksquare$
+
+
+\end{frame}
+
+
+\blueheader
+\begin{frame}
+\frametitle{1B: Kontrapositivt}
+
+\begin{blue*}{Definisjon}
+Hvis  implikasjonen
+\[
+P \Rightarrow Q
+\]
+er sann,  
+da er også
+\[
+\lnot Q \Rightarrow \lnot P
+\]
+sann.
+
+\medskip
+Dette kaller vi det \textbf{kontraposive} av en påstand.
+\end{blue*}
+
+\end{frame}
+
+\greenheader
+\begin{frame}
+\frametitle{1B: Eksempel (I) }
+
+
+La $P$: «Du er i Harstad»  
+og $Q$: «Du er i Troms fylke».
+
+\medskip
+Vi har implikasjonen
+\[
+P \Rightarrow Q
+\]
+
+Det kontrapositive blir
+\[
+\lnot Q \Rightarrow \lnot P
+\]
+
+\medskip
+Altså: «Hvis du \emph{ikke} er i Troms fylke, så er du \emph{ikke} i Harstad.»  
+Dette er en sann påstand.
+
+
+\end{frame}
+\greenheader
+\begin{frame}
+\frametitle{1B: Eksempel (II)}
+Vi har to påstander, P og Q.
+\begin{itemize}
+    \item[] $P$: $n^2$ er partall\\
+    \item[] $Q$: $n$ er partall.
+\end{itemize}   
+
+\medskip
+Vi skal vise $P \Rightarrow Q$ ved å bevise kontrapositive: $\lnot Q \Rightarrow \lnot P$.
+
+\medskip
+Anta $\lnot Q$, dvs. $n$ er oddetall.  Da er $n=2k+1$ for et heltall $k$.  
+\[
+n^2 = (2k+1)^2 = 4k^2 + 4k + 1 = 2(2k^2+2k)+1,
+\]
+som er oddetall, altså $\lnot P$.
+
+\medskip
+Dermed har vi vist $\lnot Q \Rightarrow \lnot P$, og dermed $P \Rightarrow Q$. \hfill $\blacksquare$
+
+
+\end{frame}
+
+\blueheader
+\begin{frame}{1B: Induksjonsbevis}
+
+\begin{blue*}{Oppskrift på induksjon}
+For å bevise en påstand $P(n)$ for alle $n \in \mathbb{N}$:
+
+\begin{enumerate}
+    \item \textbf{Induksjonsbasis:} Vis at påstanden stemmer for $n=1$.
+    \item \textbf{Induksjonshypotese:} Anta at påstanden stemmer for $n=k$.
+    \item \textbf{Induksjonstrinn:} Bruk antakelsen til å vise at påstanden
+          også stemmer for $n=k+1$.
+    \item \textbf{Konklusjon:} Dermed gjelder påstanden for alle $n \in \mathbb{N}$.
+\end{enumerate}
+
+\end{blue*}
+
+\end{frame}
+
+
+\greenheader
+\begin{frame}
+\frametitle{1B: Induksjonsbevis (I)}
+
+\textbf{Påstand:}
+
+For alle $n \in \mathbb{N}$ gjelder
+\[
+1 + 2 + 3 + \dots + n = \frac{n(n+1)}{2}.
+\]
+
+
+\textbf{Induksjonsbasis:}
+
+Vi viser at påstanden er sann for $n=1$:
+\[
+1 = \frac{1 \cdot (1+1)}{2} = 1.
+\]
+Dermed er basistilfellet oppfylt.
+
+
+\end{frame}
+
+
+\greenheader
+\begin{frame}
+\frametitle{1B: Induksjonsbevis (II)}
+
+Anta at påstanden gjelder for $n=k$, altså
+\[
+1 + 2 + 3 + \dots + k = \frac{k(k+1)}{2}.
+\]
+
+Vi viser at den da gjelder for $n=k+1$:
+\begin{align*}
+1 + 2 + 3 + \dots + k + (k+1)
+&= \frac{k(k+1)}{2} + (k+1) \\
+&= \frac{k(k+1) + 2(k+1)}{2} \\
+&= \frac{(k+1)(k+2)}{2}.
+\end{align*}
+
+Dette er akkurat formelen med $n=k+1$.  
+Dermed gjelder påstanden for alle $n \in \mathbb{N}$. \hfill $\blacksquare$
+
+
+\end{frame}
+
+
+
+%-----------------
+\greenheader
+\begin{frame}
+\frametitle{1B: Induksjonsbevis for en rekursiv sammenheng (I)}
+Følgen $\{a_n\}$ er gitt ved
+\[
+a_1=-3, \qquad  a_{n+1}=a_n+2n-3.
+\]
+
+Vis ved induksjon at
+\[
+a_n = n(n-4), \quad n\in\mathbb{N}.
+\]
+
+\medskip
+\textbf{Påstand:} 
+
+For alle $n\in\mathbb{N}$ gjelder $a_n = n(n-4)$.
+
+\medskip
+\textbf{Induksjonsbasis:}
+
+
+Starter med å sjekke om formelen stemmer for basistilfellet $n=1$:
+\[
+a_1=-3, \qquad 1(1-4)=-3.
+\]
+
+
+\end{frame}
+
+
+\greenheader
+\begin{frame}
+\frametitle{1B: Induksjonsbevis for en rekursiv sammenheng  (II)}
+
+
+Antar at $a_n = n(n-4)$  gir oss det n'te leddet i følgen 
+
+\[
+a_1=-3 \quad \wedge \quad  a_{n+1}=a_n+2n-3
+\]
+Dette gir:
+\begin{align*}
+a_{k+1} &= a_k + 2k - 3 \\
+        &= k(k-4) + 2k - 3 \\
+        &= k^2 - 2k - 3 \\
+        &= (k+1)(k-3) \\
+        &= (k+1)\bigl((k+1)-4\bigr).
+\end{align*}
+
+Dette er formelen for det n'te leddet i følgen for $n=k+1$.
+
+\hfill $\blacksquare$
+
+
+\end{frame}

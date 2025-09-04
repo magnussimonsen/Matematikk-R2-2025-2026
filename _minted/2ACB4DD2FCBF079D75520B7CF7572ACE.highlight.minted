@@ -1,0 +1,20 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{k}{def}\PYG{+w}{ }\PYG{n+nf}{f}\PYG{p}{(}\PYG{n}{x}\PYG{p}{)}\PYG{p}{:}
+    \PYG{k}{return} \PYG{l+m+mf}{0.1}\PYG{o}{*}\PYG{n}{x}\PYG{o}{*}\PYG{p}{(}\PYG{n}{x}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{4}\PYG{p}{)}\PYG{o}{*}\PYG{p}{(}\PYG{n}{x}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{8}\PYG{p}{)}  \PYG{c+c1}{\PYGZsh{} Funksjonen vi skal integrere tilnærmet}
+
+\PYG{n}{start}\PYG{p}{,} \PYG{n}{slutt} \PYG{o}{=} \PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{8}           \PYG{c+c1}{\PYGZsh{} Integrasjonsintervall [0, 8]}
+\PYG{n}{bredde} \PYG{o}{=} \PYG{l+m+mf}{0.1}                  \PYG{c+c1}{\PYGZsh{} Bredde på hvert rektangel}
+\PYG{n}{antall} \PYG{o}{=} \PYG{n+nb}{round}\PYG{p}{(}\PYG{p}{(}\PYG{n}{slutt}\PYG{o}{\PYGZhy{}}\PYG{n}{start}\PYG{p}{)}\PYG{o}{/}\PYG{n}{bredde}\PYG{p}{)}  \PYG{c+c1}{\PYGZsh{} Antall rektangler i intervallet}
+\PYG{n}{N}\PYG{p}{,} \PYG{n}{Ø} \PYG{o}{=} \PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{0}  \PYG{c+c1}{\PYGZsh{} Startverdier for nedre og øvre trappesum}
+
+\PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{n}{antall}\PYG{p}{)}\PYG{p}{:}
+    \PYG{n}{x\PYGZus{}venstre} \PYG{o}{=} \PYG{n}{start} \PYG{o}{+} \PYG{n}{i}\PYG{o}{*}\PYG{n}{bredde}      \PYG{c+c1}{\PYGZsh{} Venstre endepunkt for intervallet}
+    \PYG{n}{x\PYGZus{}høyre} \PYG{o}{=} \PYG{n}{x\PYGZus{}venstre} \PYG{o}{+} \PYG{n}{bredde}      \PYG{c+c1}{\PYGZsh{} Høyre endepunkt for intervallet}
+    \PYG{n}{f\PYGZus{}venstre} \PYG{o}{=} \PYG{n}{f}\PYG{p}{(}\PYG{n}{x\PYGZus{}venstre}\PYG{p}{)}          \PYG{c+c1}{\PYGZsh{} Funksjonsverdi i venstre endepunkt}
+    \PYG{n}{f\PYGZus{}høyre} \PYG{o}{=} \PYG{n}{f}\PYG{p}{(}\PYG{n}{x\PYGZus{}høyre}\PYG{p}{)}              \PYG{c+c1}{\PYGZsh{} Funksjonsverdi i høyre endepunkt}
+    \PYG{n}{N} \PYG{o}{=} \PYG{n}{N} \PYG{o}{+} \PYG{n}{bredde} \PYG{o}{*} \PYG{n+nb}{min}\PYG{p}{(}\PYG{n}{f\PYGZus{}venstre}\PYG{p}{,} \PYG{n}{f\PYGZus{}høyre}\PYG{p}{)}  \PYG{c+c1}{\PYGZsh{} Areal med minste funksjonsverdi}
+
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+sa}{f}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Antall rektangler: }\PYG{l+s+si}{\PYGZob{}}\PYG{n}{antall}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+sa}{f}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Rektangelbredde: }\PYG{l+s+si}{\PYGZob{}}\PYG{n}{bredde}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+sa}{f}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+s2}{Nedre trappesum: }\PYG{l+s+si}{\PYGZob{}}\PYG{n}{N}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+\end{MintedVerbatim}

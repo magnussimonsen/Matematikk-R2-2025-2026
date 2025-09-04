@@ -1,0 +1,109 @@
+\redheader
+\begin{frame}{2C: Tolkning av integralet}
+Arealet av området mellom en graf og førsteaksen har samme enhet som produktet av enhetene på aksene
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.5\linewidth]{R2-K2C-1.png}
+    \end{figure}
+\end{frame}
+
+\greenheader
+\begin{frame}{2C: Eksempel 7 side 114}
+Modellen beskriver hvor mange liter vann som renner ut av et akvarium per sekund.
+\begin{equation*}
+    V(t)=3,8\cdot e^{-0.05t} 
+\end{equation*}
+Arealet under grafen har enheten liter.\\
+
+Hvor mye vann renner ut i løpet av det første minuttet? 
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\linewidth]{R2-K2C-2.png}
+\end{figure}
+\end{frame}
+
+\redheader
+\begin{frame}{2C: Arealet under førsteaksen}
+    La $A$ være arealet av området avgrenset av grafen til den kontinuerlige funksjonen $f$, x-aksen og linjene $x=a$ og $x=b$.\\
+    \begin{align*} 
+    \text{Arealet }  A&=\int_a^bf(x)\;dx \text{   hvis området ligger over x-aksen.}\\
+       \text{Arealet }  A&=-\int_a^bf(x)\;dx \text{   hvis området ligger under x-aksen.}
+       \end{align*}
+       
+    \medskip
+    Hvis området ligger delvis over og delvis under x-aksen, må vi dele det opp i flere deler og summere delarealene.
+\end{frame}
+
+
+\greenheader\begin{frame}{2C: Eksempel 8 side 117}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.9\linewidth]{R2-K2C-3.png}
+\end{figure}
+\end{frame}
+
+\greenheader\begin{frame}{2C: Eksempel 10 side 122}
+\begin{figure}
+    \centering
+    \includegraphics[width=\linewidth]{R2-K2C-4.png}
+\end{figure}
+\end{frame}
+
+\greenheader\begin{frame}{2C: Eksempel 10 side 122}
+\begin{figure}
+    \centering
+    \includegraphics[width=\linewidth]{R2-K2C-5.png}
+\end{figure}
+\end{frame}
+
+\redheader
+\begin{frame}{2C: Arealet mellom to grafer}
+\end{frame}
+
+\greenheader\begin{frame}{2C: Eksempel 10 side 122}
+\begin{figure}
+    \centering
+    \includegraphics[width=\linewidth]{R2-K2C-7.png}
+\end{figure}
+\end{frame}
+
+\greenheader
+\begin{frame}[fragile]{2C: Areal mellom funksjonene f og g i python (hvis dere vil)}
+\begin{minted}[fontsize=\footnotesize]{python}
+from pylab import *
+
+def f(x):
+  return (x+4)**0.5      # f(x) = kvadratroten av (x+4)
+
+def g(x):
+  return x**2 - 1        # g(x) = x^2 - 1
+
+# Skjæringspunktene mellom f og g (løst på forhånd)
+a = -1.5969  # Nedre grense
+b =  1.8489  # Øvre grense
+
+# Lager en liste med 100 jevnt fordelte x-verdier mellom a og b
+x = linspace(a, b, 100)
+
+# Arealet mellom f og g finner vi ved å integrere (f(x) - g(x))
+# Her bruker vi trapesmetoden (numerisk tilnærming)
+svar = trapezoid(f(x) - g(x), x)
+print(svar) # Oputput: 6.927568467295032
+\end{minted}
+\end{frame}
+
+
+
+
+
+\redheader
+\begin{frame}{2C: Gjennomsnittsverdiern til en funksjon i intervallet $[a, b]$}
+\end{frame}
+
+
+\magentaheader
+\begin{frame}{2C: Buelengden til en graf i intervallet $[a, b]$. (Utforsk side 126)}
+\end{frame}
+
+
+
