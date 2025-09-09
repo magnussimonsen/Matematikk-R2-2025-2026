@@ -1,0 +1,21 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{n}{a1} \PYG{o}{=} \PYG{l+m+mi}{729}            \PYG{c+c1}{\PYGZsh{} Første ledd i den geometriske rekken}
+\PYG{n}{k} \PYG{o}{=} \PYG{l+m+mi}{10}\PYG{o}{/}\PYG{l+m+mi}{9}            \PYG{c+c1}{\PYGZsh{} Kvotienten (hvor mye vi ganger med fra ett ledd til det neste)}
+
+\PYG{n}{minliste} \PYG{o}{=} \PYG{p}{[}\PYG{p}{]}       \PYG{c+c1}{\PYGZsh{} Vi starter med en tom liste}
+
+\PYG{c+c1}{\PYGZsh{} Vi vil finne de 10 første leddene i rekken}
+\PYG{k}{for} \PYG{n}{n} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mi}{11}\PYG{p}{)}\PYG{p}{:}                    \PYG{c+c1}{\PYGZsh{} n går fra 1 til 10}
+    \PYG{n}{ledd} \PYG{o}{=} \PYG{n+nb}{round}\PYG{p}{(}\PYG{n}{a1} \PYG{o}{*} \PYG{n}{k}\PYG{o}{*}\PYG{o}{*}\PYG{p}{(}\PYG{n}{n}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{)}\PYG{p}{,} \PYG{l+m+mi}{2}\PYG{p}{)}        \PYG{c+c1}{\PYGZsh{} regner ut n\PYGZhy{}te ledd, avrundet til 2 desimaler}
+    \PYG{n}{minliste}\PYG{o}{.}\PYG{n}{append}\PYG{p}{(}\PYG{n}{ledd}\PYG{p}{)}                 \PYG{c+c1}{\PYGZsh{} legger leddet inn i listen}
+
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{minliste}\PYG{p}{)}
+\PYG{c+c1}{\PYGZsh{} Output:}
+\PYG{c+c1}{\PYGZsh{} [729.0, 810.0, 900.0, 1000.0, 1111.11, 1234.57,}
+\PYG{c+c1}{\PYGZsh{}  1371.74, 1524.16, 1693.51, 1881.68]}
+
+\PYG{c+c1}{\PYGZsh{} Beregner summen av alle leddene}
+\PYG{n}{summen} \PYG{o}{=} \PYG{n+nb}{sum}\PYG{p}{(}\PYG{n}{minliste}\PYG{p}{)}
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{summen}\PYG{p}{)}
+\PYG{c+c1}{\PYGZsh{} Output: 12255.77}
+\end{MintedVerbatim}

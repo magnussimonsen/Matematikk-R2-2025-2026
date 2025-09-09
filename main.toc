@@ -1,1 +1,3 @@
+\beamer@sectionintoc {1}{1A: Tallfølger}{1}{0}{1}
 \babel@toc {norsk}{}\relax 
+\beamer@sectionintoc {2}{1B: Bevis}{15}{0}{2}

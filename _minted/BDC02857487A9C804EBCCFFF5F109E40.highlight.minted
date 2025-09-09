@@ -1,0 +1,11 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} Lager følgen av de 5 første partallene}
+\PYG{n}{f} \PYG{o}{=} \PYG{p}{[}\PYG{l+m+mi}{2}\PYG{o}{*}\PYG{n}{n} \PYG{k}{for} \PYG{n}{n} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{l+m+mi}{6}\PYG{p}{)}\PYG{p}{]}
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{f}\PYG{p}{)}
+\PYG{c+c1}{\PYGZsh{} Output: [2, 4, 6, 8, 10]}
+
+\PYG{c+c1}{\PYGZsh{} Regner ut summen av rekken}
+\PYG{n}{s} \PYG{o}{=} \PYG{n+nb}{sum}\PYG{p}{(}\PYG{n}{f}\PYG{p}{)}
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{n}{s}\PYG{p}{)}
+\PYG{c+c1}{\PYGZsh{} Output: 30}
+\end{MintedVerbatim}
