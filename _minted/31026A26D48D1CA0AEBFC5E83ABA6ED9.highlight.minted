@@ -4,7 +4,7 @@
 
 \PYG{n}{fib\PYGZus{}liste} \PYG{o}{=} \PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mi}{1}\PYG{p}{]}
 
-\PYG{k}{for} \PYG{n}{n} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{5}\PYG{p}{)}\PYG{p}{:}
+\PYG{k}{for} \PYG{n}{n} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mi}{5}\PYG{p}{):}
     \PYG{n}{a\PYGZus{}n} \PYG{o}{=} \PYG{n}{fib\PYGZus{}liste}\PYG{p}{[}\PYG{n}{n}\PYG{o}{+}\PYG{l+m+mi}{1}\PYG{p}{]} \PYG{o}{+} \PYG{n}{fib\PYGZus{}liste}\PYG{p}{[}\PYG{n}{n}\PYG{p}{]}
     \PYG{n}{fib\PYGZus{}liste}\PYG{o}{.}\PYG{n}{append}\PYG{p}{(}\PYG{n}{a\PYGZus{}n}\PYG{p}{)}
 

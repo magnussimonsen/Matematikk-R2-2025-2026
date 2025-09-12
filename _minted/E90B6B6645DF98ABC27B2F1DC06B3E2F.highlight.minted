@@ -1,9 +1,9 @@
 \begin{MintedVerbatim}[commandchars=\\\{\}]
 \PYG{c+c1}{\PYGZsh{} Vi lager en tom liste som vi skal fylle med de 5 første partallene}
-\PYG{n}{minListe} \PYG{o}{=} \PYG{p}{[}\PYG{p}{]}
+\PYG{n}{minListe} \PYG{o}{=} \PYG{p}{[]}
 
 \PYG{c+c1}{\PYGZsh{} For\PYGZhy{}løkke: n går fra 1 til 5}
-\PYG{k}{for} \PYG{n}{n} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mi}{6}\PYG{p}{)}\PYG{p}{:}
+\PYG{k}{for} \PYG{n}{n} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mi}{6}\PYG{p}{):}
     \PYG{n}{tall} \PYG{o}{=} \PYG{l+m+mi}{2} \PYG{o}{*} \PYG{n}{n}       \PYG{c+c1}{\PYGZsh{} regner ut partallet}
     \PYG{n}{minListe}\PYG{o}{.}\PYG{n}{append}\PYG{p}{(}\PYG{n}{tall}\PYG{p}{)}     \PYG{c+c1}{\PYGZsh{} legger tallet til i listen}
 
