@@ -58,6 +58,20 @@ Hvor mye vann renner ut i løpet av det første minuttet?
 
 \redheader
 \begin{frame}{2C: Arealet mellom to grafer}
+    \begin{columns}
+        \begin{column}{0.3\linewidth}
+            \begin{figure}
+                \centering
+                \includegraphics[width=\linewidth]{R2-K2B-12.png}
+            \end{figure}
+        \end{column}
+        \begin{column}{0.6\linewidth}
+            Hvis \(f(x)\geq g(x)\) for alle \(x\) i \([a,b]\), er arealet av området mellom grafene til \(f\) og \(g\), og linjene \(x=a\) og \(x=b\) gitt ved
+            \begin{equation*}
+                A = \int_a^b (f(x) - g(x)) \;dx
+            \end{equation*}
+        \end{column}
+    \end{columns}
 \end{frame}
 
 \greenheader\begin{frame}{2C: Eksempel 10 side 122}
@@ -98,8 +112,23 @@ print(svar) # Oputput: 6.927568467295032
 
 \redheader
 \begin{frame}{2C: Gjennomsnittsverdiern til en funksjon i intervallet $[a, b]$}
+Gjennomsnittsverdien til en kontinuerlig funksjon \(f\) i intervallet \([a,b]\) er gitt ved
+\[\text{Gjennomsnittsverdi} = \frac{1}{b-a}\int_a^b f(x) \; dx.\]
+\begin{figure}
+    \centering
+    \includegraphics[width=0.6\linewidth]{R2-K2B-13.png}
+\end{figure}    
 \end{frame}
 
+\greenheader
+\begin{frame}{2C: Oppgave 2.51 side 126}
+    På en fabrikk der det skilles ut et skadelig stoff, ble konsentrasjonen av stoffet målt gjennom en hel arbeidsdag.\(K(t)\) er konsentrasjonen ved tidspunktet \(t\). Arbeidsmiljøloven krever at den gjennomsnittlige konsentrasjonen i løpet av arbeidsdagen ikke overstiger \(140\,\mathrm{mg}/\mathrm{m}^3\). Var kravet i arbeidsmiljøloven oppfylt denne dagen?
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.6\linewidth]{R2-K2B-13.png}
+\end{figure}
+\end{frame}
 
 \magentaheader
 \begin{frame}{2C: Buelengden til en graf i intervallet $[a, b]$. (Utforsk side 126)}

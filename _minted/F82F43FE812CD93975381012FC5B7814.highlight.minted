@@ -1,0 +1,19 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{n}{a}\PYG{p}{,} \PYG{n}{b} \PYG{o}{=} \PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mi}{5}               \PYG{c+c1}{\PYGZsh{} Nedre og øvre grense i intervallet [a, b]}
+\PYG{n}{n} \PYG{o}{=} \PYG{l+m+mi}{10}                    \PYG{c+c1}{\PYGZsh{} Antall rektangler}
+
+\PYG{k}{def}\PYG{+w}{ }\PYG{n+nf}{f}\PYG{p}{(}\PYG{n}{x}\PYG{p}{):}
+  \PYG{k}{return} \PYG{n}{x}\PYG{o}{**}\PYG{l+m+mi}{2} \PYG{o}{\PYGZhy{}} \PYG{l+m+mi}{2}\PYG{o}{*}\PYG{n}{x} \PYG{o}{+} \PYG{l+m+mi}{2}
+
+\PYG{n}{venstre\PYGZus{}sum} \PYG{o}{=} \PYG{l+m+mi}{0}           \PYG{c+c1}{\PYGZsh{} Summen av arealene til venstre\PYGZhy{}tilnærming\PYGZhy{}rektangler}
+\PYG{n}{høyre\PYGZus{}sum}   \PYG{o}{=} \PYG{l+m+mi}{0}           \PYG{c+c1}{\PYGZsh{} Summen av arealene til høyre\PYGZhy{}tilnærming\PYGZhy{}rektangler}
+\PYG{n}{delta\PYGZus{}x} \PYG{o}{=} \PYG{p}{(}\PYG{n}{b}\PYG{o}{\PYGZhy{}}\PYG{n}{a}\PYG{p}{)}\PYG{o}{/}\PYG{n}{n}         \PYG{c+c1}{\PYGZsh{} Rektangelbredden}
+
+\PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{n}{n}\PYG{o}{+}\PYG{l+m+mi}{1}\PYG{p}{):}
+  \PYG{n}{venstre\PYGZus{}sum} \PYG{o}{=} \PYG{n}{venstre\PYGZus{}sum} \PYG{o}{+} \PYG{n}{f}\PYG{p}{(}\PYG{n}{a}\PYG{o}{+}\PYG{p}{(}\PYG{n}{i}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{)}\PYG{o}{*}\PYG{n}{delta\PYGZus{}x}\PYG{p}{)}\PYG{o}{*}\PYG{n}{delta\PYGZus{}x}
+  \PYG{n}{høyre\PYGZus{}sum} \PYG{o}{=} \PYG{n}{høyre\PYGZus{}sum} \PYG{o}{+} \PYG{n}{f}\PYG{p}{(}\PYG{n}{a}\PYG{o}{+}\PYG{n}{i}\PYG{o}{*}\PYG{n}{delta\PYGZus{}x}\PYG{p}{)}\PYG{o}{*}\PYG{n}{delta\PYGZus{}x}
+
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+sa}{f}\PYG{l+s+s2}{\PYGZdq{}Venstresummen: }\PYG{l+s+si}{\PYGZob{}}\PYG{n+nb}{round}\PYG{p}{(}\PYG{n}{venstre\PYGZus{}sum}\PYG{p}{,}\PYG{l+m+mi}{2}\PYG{p}{)}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}     \PYG{c+c1}{\PYGZsh{} Venstresummen: 22.24}
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+sa}{f}\PYG{l+s+s2}{\PYGZdq{}Høyresummen: }\PYG{l+s+si}{\PYGZob{}}\PYG{n+nb}{round}\PYG{p}{(}\PYG{n}{høyre\PYGZus{}sum}\PYG{p}{,}\PYG{l+m+mi}{2}\PYG{p}{)}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}         \PYG{c+c1}{\PYGZsh{} Høyresummen: 28.64}
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+sa}{f}\PYG{l+s+s2}{\PYGZdq{}Gjennomsnitt: }\PYG{l+s+si}{\PYGZob{}}\PYG{p}{(}\PYG{n}{venstre\PYGZus{}sum}\PYG{o}{+}\PYG{n}{høyre\PYGZus{}sum}\PYG{p}{)}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)} \PYG{c+c1}{\PYGZsh{} Gjennomsnitt: 25.44}
+\end{MintedVerbatim}

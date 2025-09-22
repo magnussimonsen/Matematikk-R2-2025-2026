@@ -1,22 +1,22 @@
-\frametitle{1D: Eulerkonstanten med vanlig for-løkke}
+\frametitle{2C: Areal mellom funksjonene f og g i python (hvis dere vil)}
 \begin{minted}[fontsize=\footnotesize]{python}
-from pylab import *  # Importerer blant annet log (ln)
+from pylab import *
 
-# Vi setter et stort tall som "øverste grense" for summen
-n_maks = 1_000_000
+def f(x):
+  return (x+4)**0.5      # f(x) = kvadratroten av (x+4)
 
-# Vi lager en tom liste som skal inneholde leddene i den harmoniske rekken
-harmonisk_følge = []
+def g(x):
+  return x**2 - 1        # g(x) = x^2 - 1
 
-# Vi fyller listen med 1/n for n = 1, 2, ..., n_maks
-for n in range(1, n_maks+1):
-    harmonisk_følge.append(1/n)
+# Skjæringspunktene mellom f og g (løst på forhånd)
+a = -1.5969  # Nedre grense
+b =  1.8489  # Øvre grense
 
-# Vi regner ut summen av de n_maks første leddene i den harmoniske rekken
-# og trekker fra ln(n_maks). Dette nærmer seg Eulers konstant
+# Lager en liste med 100 jevnt fordelte x-verdier mellom a og b
+x = linspace(a, b, 100)
 
-s_n_maks = sum(harmonisk_følge) - log(n_maks)
-
-# Vi skriver ut resultatet (en tilnærming til Eulers konstant)
-print(s_n_maks) # Output: 0.5772161649014613
+# Arealet mellom f og g finner vi ved å integrere (f(x) - g(x))
+# Her bruker vi trapesmetoden (numerisk tilnærming)
+svar = trapezoid(f(x) - g(x), x)
+print(svar) # Oputput: 6.927568467295032
 \end{minted}

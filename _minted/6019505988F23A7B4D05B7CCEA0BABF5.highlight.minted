@@ -1,0 +1,20 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{c+c1}{\PYGZsh{} lister med x\PYGZhy{}verdier og funksjonsverdier}
+\PYG{n}{x} \PYG{o}{=} \PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mf}{0.5}\PYG{p}{,} \PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mf}{1.5}\PYG{p}{,} \PYG{l+m+mi}{2}\PYG{p}{,} \PYG{l+m+mf}{2.5}\PYG{p}{,} \PYG{l+m+mi}{3}\PYG{p}{,} \PYG{l+m+mf}{3.5}\PYG{p}{,} \PYG{l+m+mi}{4}\PYG{p}{]}
+\PYG{n}{f} \PYG{o}{=} \PYG{p}{[}\PYG{l+m+mf}{13.1}\PYG{p}{,} \PYG{l+m+mf}{16.3}\PYG{p}{,} \PYG{l+m+mi}{0}\PYG{p}{,} \PYG{l+m+mf}{8.2}\PYG{p}{,} \PYG{l+m+mf}{19.7}\PYG{p}{,} \PYG{l+m+mf}{24.8}\PYG{p}{,} \PYG{l+m+mf}{28.1}\PYG{p}{,} \PYG{l+m+mf}{27.3}\PYG{p}{,} \PYG{l+m+mf}{21.0}\PYG{p}{]}
+
+\PYG{n}{delta\PYGZus{}x} \PYG{o}{=} \PYG{n}{x}\PYG{p}{[}\PYG{l+m+mi}{1}\PYG{p}{]} \PYG{o}{\PYGZhy{}} \PYG{n}{x}\PYG{p}{[}\PYG{l+m+mi}{0}\PYG{p}{]}     \PYG{c+c1}{\PYGZsh{} rektangelbredde}
+\PYG{n}{n} \PYG{o}{=} \PYG{n+nb}{len}\PYG{p}{(}\PYG{n}{x}\PYG{p}{)}                \PYG{c+c1}{\PYGZsh{} antall x\PYGZhy{}verdier i lista}
+\PYG{n}{summen} \PYG{o}{=} \PYG{l+m+mi}{0}
+
+\PYG{c+c1}{\PYGZsh{} Legg merke til at n = len(x) = 9, og siden \PYGZdq{}i\PYGZdq{} i for\PYGZhy{}løkken}
+\PYG{c+c1}{\PYGZsh{} starter på 0, må \PYGZdq{}i\PYGZdq{} gå til n\PYGZhy{}1=8, og at maks verdi for \PYGZdq{}i\PYGZdq{} er 7.}
+
+\PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{n}{n}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{):}
+  \PYG{n}{summen} \PYG{o}{=} \PYG{n}{summen} \PYG{o}{+} \PYG{n}{f}\PYG{p}{[}\PYG{n}{i}\PYG{p}{]} \PYG{o}{*} \PYG{n}{delta\PYGZus{}x}
+
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{n+nb}{round}\PYG{p}{(}\PYG{n}{summen}\PYG{p}{,} \PYG{l+m+mi}{1}\PYG{p}{))} \PYG{c+c1}{\PYGZsh{} Output: 68.8}
+
+\PYG{c+c1}{\PYGZsh{} Legg merke til at det står f[i], og ikke f[i\PYGZhy{}1], selv om dette er en}
+\PYG{c+c1}{\PYGZsh{} venstretilnærming. Det er fordi \PYGZdq{}i\PYGZdq{} i for\PYGZhy{}løkken starter på null.}
+\end{MintedVerbatim}
