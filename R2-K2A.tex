@@ -1,15 +1,5 @@
-
-
-%\blueheader
-%\begin{frame}{2A: Snille funksjoner kan stykkevis tilnærmes med rette %linjer}
-%\begin{figure}
-%    \centering
-%    \includegraphics[width=0.8\linewidth]{R2-K2A-3.png}
-%\end{figure}
-%\end{frame}
-
 \blueheader
-\begin{frame}{2A: Det bestemte integralet}
+\begin{frame}{2A: Det bestemte integralet. \texttt{integral(funksjon, start, slutt)}}
 \begin{figure}
     \centering
     \includegraphics[width=\linewidth]{R2-K2A-1.png}
@@ -143,7 +133,7 @@ så kan vi alltid regne ut \textbf{integralet} av $f$ på dette intervallet.
 \greenheader
 \begin{frame}{2A: Nedre trappesum, $N_n$,  for en strengt voksende funksjon}
     \begin{columns} 
-        \begin{column}{0.42\textwidth}
+        \begin{column}{0.40\textwidth}
             Bredden av rektanglene på figuren er 
             \[
                 \Delta x = \frac{b-a}{n}.
@@ -155,7 +145,7 @@ så kan vi alltid regne ut \textbf{integralet} av $f$ på dette intervallet.
            
             
         \end{column}
-        \begin{column}{0.58\textwidth}
+        \begin{column}{0.60\textwidth}
             \centering
             \includegraphics[width=1\linewidth]{R2-K2A-15.png}
         \end{column}
@@ -170,7 +160,7 @@ så kan vi alltid regne ut \textbf{integralet} av $f$ på dette intervallet.
 \greenheader
 \begin{frame}{2A: Øvre trappesum $\text{Ø}_n$,  for en strengt voksende funksjon}
     \begin{columns} 
-        \begin{column}{0.42\textwidth}
+        \begin{column}{0.40\textwidth}
             Bredden av rektanglene på figuren er 
             \[
                 \Delta x = \frac{b-a}{n}.
@@ -182,7 +172,7 @@ så kan vi alltid regne ut \textbf{integralet} av $f$ på dette intervallet.
            
             
         \end{column}
-        \begin{column}{0.58\textwidth}
+        \begin{column}{0.60\textwidth}
             \centering
             \includegraphics[width=1\linewidth]{R2-K2A-15.png}
         \end{column}
@@ -194,26 +184,71 @@ så kan vi alltid regne ut \textbf{integralet} av $f$ på dette intervallet.
             \end{align*}
 \end{frame}
 
-\blueheader
-\begin{frame}{2B: Nedre trappesum til en ikke er strengt voksende funksjon}
-Merk at generelt tar 
-\begin{itemize}
-    \item nedre trappesum utgangspunkt i den minste høyden til rektanglet.\\
-    \item og øvre trappesum tar utgangspunkt i den største høyden til rektanglet.
-\end{itemize}
+\greenheader
+\begin{frame}[fragile]{2A: Oppgave 2.1}
+\begin{minted}[fontsize=\normalsize, encoding=utf8]{python}
+n = 5 
+a = 0   # Nedre itegrasjons-x-verdi
+b = 5   # Øvre integrasjons-x-verdi
+
+def f(x):
+    return 2*x+1
+
+areal = 0    # Variabel for "areal-summen" (integralet)
+dx = (b-a)/n # Dette er bredden til rektanglet
+
+for i in range(n):  # n = 0, 1, 2, ... ,n-1
+    høyde = f(a + i*dx)
+    areal = areal + høyde * dx
+
+print(f"Integralet av f fra {a} til {b} er {areal}")
+# Output: Integralet av f fra 0 til 5 er 25.0
+\end{minted}
+\end{frame}
+
+\greenheader
+\begin{frame}{2A: Oppgave 2.1}
 \begin{figure}
     \centering
-    \includegraphics[width=0.6\linewidth]{R2-K2A-17.png}
+    \includegraphics[width=0.8\linewidth]{R2-K2A-101.png}
 \end{figure}
 \end{frame}
 
-\blueheader
-\begin{frame}{2B: Venstre- og høyre-tilnærming}
+\greenheader
+\begin{frame}{2A: Oppgave 2.1}
 \begin{figure}
     \centering
-    \includegraphics[width=\linewidth]{R2-K2B-2.png}
+    \includegraphics[width=0.8\linewidth]{R2-K2A-121.png}
 \end{figure}
 \end{frame}
+
+\greenheader
+\begin{frame}{2A: Oppgave 2.1}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\linewidth]{R2-K2A-131.png}
+\end{figure}
+\end{frame}
+
+\greenheader
+\begin{frame}{2A: Oppgave 2.1}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\linewidth]{R2-K2A-141.png}
+\end{figure}
+\end{frame}
+
+\greenheader
+\begin{frame}{2A: Oppgave 2.1}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.8\linewidth]{R2-K2A-151.png}
+\end{figure}
+\end{frame}
+
+
+
+
 
 
 

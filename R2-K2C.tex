@@ -129,20 +129,31 @@ Gjennomsnittsverdien til en kontinuerlig funksjon \(f\) i intervallet \([a,b]\) 
 
 \magentaheader
 \begin{frame}{2C: Buelengde til en graf i \([a, b]\) (Utforsk side 126)}
-Lengden av grafen til \(f\) i intervallet \([a, b]\) kan tilnærmes ved å summere små linjestykker:
-\[
-s_i \approx \sqrt{(\Delta x)^2 + (f(x_{i+1}) - f(x_i))^2}
-\]
-Den eksakte buelengden er gitt ved
-\[
-s = \int_a^b \sqrt{1 + (f'(x))^2} \; dx
-\]
-
-    \begin{figure}
-        \centering
-        \includegraphics[width=0.4\linewidth]{R2-K2C-8.png}
-    \end{figure}
+    \begin{columns}
+        \begin{column}{0.40\linewidth}
+            Lengden av grafen til \(f\) i intervallet \([a, b]\) kan tilnærmes ved å summere små linjestykker:
+            \[
+            s_i \approx \sqrt{(\Delta x)^2 + (f(x_{i+1}) - f(x_i))^2}
+            \]
+            Den eksakte buelengden er gitt ved
+            \[
+            s = \int_a^b \sqrt{1 + (f'(x))^2} \; dx
+            \]
+        \end{column}
+        \begin{column}{0.60\linewidth}
+            \begin{figure}
+                \centering
+                \includegraphics[width=\linewidth]{R2-K2C-8.png}
+            \end{figure}
+        \end{column}
+    \end{columns}
 \end{frame}
 
 
-
+\greenheader
+\begin{frame}{2C: Buelengden til en halvsirkel}
+\begin{figure}
+    \centering
+    \includegraphics[width=1\linewidth]{R2K1C-4.png}
+\end{figure}
+\end{frame}

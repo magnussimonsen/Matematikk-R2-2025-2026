@@ -1,0 +1,18 @@
+\begin{MintedVerbatim}[commandchars=\\\{\}]
+\PYG{n}{n} \PYG{o}{=} \PYG{l+m+mi}{5}
+\PYG{n}{a} \PYG{o}{=} \PYG{l+m+mi}{0}   \PYG{c+c1}{\PYGZsh{} Nedre itegrasjons\PYGZhy{}x\PYGZhy{}verdi}
+\PYG{n}{b} \PYG{o}{=} \PYG{l+m+mi}{5}   \PYG{c+c1}{\PYGZsh{} Øvre integrasjons\PYGZhy{}x\PYGZhy{}verdi}
+
+\PYG{k}{def}\PYG{+w}{ }\PYG{n+nf}{f}\PYG{p}{(}\PYG{n}{x}\PYG{p}{):}
+    \PYG{k}{return} \PYG{l+m+mi}{2}\PYG{o}{*}\PYG{n}{x}\PYG{o}{+}\PYG{l+m+mi}{1}
+
+\PYG{n}{areal} \PYG{o}{=} \PYG{l+m+mi}{0}    \PYG{c+c1}{\PYGZsh{} Variabel for \PYGZdq{}areal\PYGZhy{}summen\PYGZdq{} (integralet)}
+\PYG{n}{dx} \PYG{o}{=} \PYG{p}{(}\PYG{n}{b}\PYG{o}{\PYGZhy{}}\PYG{n}{a}\PYG{p}{)}\PYG{o}{/}\PYG{n}{n} \PYG{c+c1}{\PYGZsh{} Dette er bredden til rektanglet}
+
+\PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{n}{n}\PYG{p}{):}  \PYG{c+c1}{\PYGZsh{} n = 0, 1, 2, ... ,n\PYGZhy{}1}
+    \PYG{n}{høyde} \PYG{o}{=} \PYG{n}{f}\PYG{p}{(}\PYG{n}{a} \PYG{o}{+} \PYG{n}{i}\PYG{o}{*}\PYG{n}{dx}\PYG{p}{)}
+    \PYG{n}{areal} \PYG{o}{=} \PYG{n}{areal} \PYG{o}{+} \PYG{n}{høyde} \PYG{o}{*} \PYG{n}{dx}
+
+\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+sa}{f}\PYG{l+s+s2}{\PYGZdq{}Integralet av f fra }\PYG{l+s+si}{\PYGZob{}}\PYG{n}{a}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{ til }\PYG{l+s+si}{\PYGZob{}}\PYG{n}{b}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{ er }\PYG{l+s+si}{\PYGZob{}}\PYG{n}{areal}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+\PYG{c+c1}{\PYGZsh{} Output: Integralet av f fra 0 til 5 er 25.0}
+\end{MintedVerbatim}

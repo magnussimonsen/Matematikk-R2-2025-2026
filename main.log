@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.12)  22 SEP 2025 13:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.9.12)  23 SEP 2025 12:00
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1158,7 +1158,7 @@ Package pgfplots notification 'compat/show suggested version=true': document has
 <R2-K2A-1.png, id=48, 792.71156pt x 361.35pt>
 File: R2-K2A-1.png Graphic file (type png)
 <use R2-K2A-1.png>
-Package pdftex.def Info: R2-K2A-1.png  used on input line 17.
+Package pdftex.def Info: R2-K2A-1.png  used on input line 7.
 (pdftex.def)             Requested size: 398.3386pt x 181.57881pt.
 
 
@@ -1166,20 +1166,20 @@ Package pdftex.def Info: R2-K2A-1.png  used on input line 17.
 
 
 {C:/Users/magnus.simonsen/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./R2-K2A-1.png>]
-<R2-K2A-6.png, id=59, 643.6547pt x 368.87813pt>
+<R2-K2A-6.png, id=60, 643.6547pt x 368.87813pt>
 File: R2-K2A-6.png Graphic file (type png)
 <use R2-K2A-6.png>
-Package pdftex.def Info: R2-K2A-6.png  used on input line 27.
+Package pdftex.def Info: R2-K2A-6.png  used on input line 17.
 (pdftex.def)             Requested size: 278.83578pt x 159.80212pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 27.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 17.
  (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 27.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 17.
  (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 27.
+LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 17.
  (C:\Users\magnus.simonsen\AppData\Local\Programs\MiKTeX\tex/latex/sansmathaccent\ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/mathkerncmss.
 )
@@ -1187,20 +1187,20 @@ File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/mat
 [2
 
  <./R2-K2A-6.png>]
-<R2-K2A-7.png, id=69, 644.4075pt x 368.1253pt>
+<R2-K2A-7.png, id=70, 644.4075pt x 368.1253pt>
 File: R2-K2A-7.png Graphic file (type png)
 <use R2-K2A-7.png>
-Package pdftex.def Info: R2-K2A-7.png  used on input line 38.
+Package pdftex.def Info: R2-K2A-7.png  used on input line 28.
 (pdftex.def)             Requested size: 278.83578pt x 159.29063pt.
 
 
 [3
 
  <./R2-K2A-7.png>]
-<R2-K2A-8.png, id=77, 642.14906pt x 365.11406pt>
+<R2-K2A-8.png, id=78, 642.14906pt x 365.11406pt>
 File: R2-K2A-8.png Graphic file (type png)
 <use R2-K2A-8.png>
-Package pdftex.def Info: R2-K2A-8.png  used on input line 49.
+Package pdftex.def Info: R2-K2A-8.png  used on input line 39.
 (pdftex.def)             Requested size: 278.83578pt x 158.54477pt.
 
 
@@ -1218,7 +1218,7 @@ Package pdftex.def Info: R2-K2A-8.png  used on input line 49.
 \openout4 = `main.vrb'.
 
  (main.vrb
-<R2-K2A-9.png, id=105, 670.00313pt x 229.60782pt>
+<R2-K2A-9.png, id=106, 670.00313pt x 229.60782pt>
 File: R2-K2A-9.png Graphic file (type png)
 <use R2-K2A-9.png>
 Package pdftex.def Info: R2-K2A-9.png  used on input line 4.
@@ -1295,13 +1295,13 @@ Package pdftex.def Info: R2-K2A-14.png  used on input line 5.
 [12
 
 {C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free1.enc} <./R2-K2A-14.png>]
-<R2-K2A-15.png, id=153, 488.32437pt x 315.1775pt>
+<R2-K2A-15.png, id=153, 502.87875pt x 338.76563pt>
 File: R2-K2A-15.png Graphic file (type png)
 <use R2-K2A-15.png>
-Package pdftex.def Info: R2-K2A-15.png  used on input line 168.
-(pdftex.def)             Requested size: 231.03711pt x 149.11932pt.
+Package pdftex.def Info: R2-K2A-15.png  used on input line 158.
+(pdftex.def)             Requested size: 239.00558pt x 161.0032pt.
 
-Overfull \vbox (2.59805pt too high) detected at line 168
+Overfull \vbox (14.48193pt too high) detected at line 158
  []
 
 
@@ -1311,10 +1311,10 @@ Overfull \vbox (2.59805pt too high) detected at line 168
  <./R2-K2A-15.png>]
 File: R2-K2A-15.png Graphic file (type png)
 <use R2-K2A-15.png>
-Package pdftex.def Info: R2-K2A-15.png  used on input line 195.
-(pdftex.def)             Requested size: 231.03711pt x 149.11932pt.
+Package pdftex.def Info: R2-K2A-15.png  used on input line 185.
+(pdftex.def)             Requested size: 239.00558pt x 161.0032pt.
 
-Overfull \vbox (2.59805pt too high) detected at line 195
+Overfull \vbox (14.48193pt too high) detected at line 185
  []
 
 
@@ -1322,339 +1322,400 @@ Overfull \vbox (2.59805pt too high) detected at line 195
 [14
 
 ]
-<R2-K2A-17.png, id=168, 400.99812pt x 287.57437pt>
-File: R2-K2A-17.png Graphic file (type png)
-<use R2-K2A-17.png>
-Package pdftex.def Info: R2-K2A-17.png  used on input line 208.
-(pdftex.def)             Requested size: 239.00558pt x 171.40506pt.
-
-Overfull \vbox (11.36957pt too high) detected at line 208
- []
-
-
-
-[15
-
- <./R2-K2A-17.png>]
-<R2-K2B-2.png, id=175, 782.17218pt x 257.46187pt>
-File: R2-K2B-2.png Graphic file (type png)
-<use R2-K2B-2.png>
-Package pdftex.def Info: R2-K2B-2.png  used on input line 216.
-(pdftex.def)             Requested size: 398.3386pt x 131.11916pt.
-
-
-[16
-
- <./R2-K2B-2.png>])
-\openout2 = `R2-K2B.aux'.
-
- (R2-K2B.tex
-<R2-K2B-1.png, id=182, 494.34688pt x 339.2675pt>
-File: R2-K2B-1.png Graphic file (type png)
-<use R2-K2B-1.png>
-Package pdftex.def Info: R2-K2B-1.png  used on input line 24.
-(pdftex.def)             Requested size: 258.91765pt x 177.6936pt.
-
-
-[17
-
-
-
-
- <./R2-K2B-1.png>]
-
-[18
-
-]
-File: R2-K2B-2.png Graphic file (type png)
-<use R2-K2B-2.png>
-Package pdftex.def Info: R2-K2B-2.png  used on input line 44.
-(pdftex.def)             Requested size: 398.3386pt x 131.11916pt.
-
-
-[19
-
-]
-File: R2-K2B-2.png Graphic file (type png)
-<use R2-K2B-2.png>
-Package pdftex.def Info: R2-K2B-2.png  used on input line 56.
-(pdftex.def)             Requested size: 398.3386pt x 131.11916pt.
-
-
-[20
-
-]
-<R2-K2B-3.png, id=207, 517.18219pt x 277.035pt>
-File: R2-K2B-3.png Graphic file (type png)
-<use R2-K2B-3.png>
-Package pdftex.def Info: R2-K2B-3.png  used on input line 65.
-(pdftex.def)             Requested size: 398.3386pt x 213.38101pt.
-
-Overfull \vbox (9.41687pt too high) detected at line 65
- []
-
-
-
-[21
-
- <./R2-K2B-3.png>]
 \openout4 = `main.vrb'.
 
  (main.vrb
 \pydata@fh@0=\write8
 \openout8 = `_FAD58DE7366495DB4650CFEFAC2FCD61.data.minted'.
 
-runsystem(latexminted config  --timestamp 20250922135614 FAD58DE7366495DB4650CFEFAC2FCD61)...executed.
+runsystem(latexminted config  --timestamp 20250923120043 FAD58DE7366495DB4650CFEFAC2FCD61)...executed.
 
  (_FAD58DE7366495DB4650CFEFAC2FCD61.config.minted)
-runsystem(latexminted cleanconfig  --timestamp 20250922135614 FAD58DE7366495DB4650CFEFAC2FCD61)...executed.
+runsystem(latexminted cleanconfig  --timestamp 20250923120043 FAD58DE7366495DB4650CFEFAC2FCD61)...executed.
 
- (_minted/default.style.minted) (_minted/F82F43FE812CD93975381012FC5B7814.highlight.minted
-LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 5.
+ (_minted/default.style.minted) (_minted/EDC62E7E439E3A43C8117A4A01F15746.highlight.minted
+LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 6.
 ))
-
-[22
-
-]
-<R2-K2B-4.png, id=220, 946.28531pt x 361.35pt>
-File: R2-K2B-4.png Graphic file (type png)
-<use R2-K2B-4.png>
-Package pdftex.def Info: R2-K2B-4.png  used on input line 107.
-(pdftex.def)             Requested size: 358.50229pt x 136.89537pt.
-
-Overfull \vbox (12.87752pt too high) detected at line 107
+Overfull \vbox (4.06868pt too high) detected at line 207
  []
 
 
 
+[15
+
+]
+<R2-K2A-101.png, id=175, 496.254pt x 311.4837pt>
+File: R2-K2A-101.png Graphic file (type png)
+<use R2-K2A-101.png>
+Package pdftex.def Info: R2-K2A-101.png  used on input line 215.
+(pdftex.def)             Requested size: 318.67209pt x 200.01904pt.
+
+
+[16
+
+ <./R2-K2A-101.png>]
+<R2-K2A-121.png, id=182, 496.254pt x 311.4837pt>
+File: R2-K2A-121.png Graphic file (type png)
+<use R2-K2A-121.png>
+Package pdftex.def Info: R2-K2A-121.png  used on input line 223.
+(pdftex.def)             Requested size: 318.67209pt x 200.01904pt.
+
+
+[17
+
+ <./R2-K2A-121.png>]
+<R2-K2A-131.png, id=189, 496.254pt x 311.4837pt>
+File: R2-K2A-131.png Graphic file (type png)
+<use R2-K2A-131.png>
+Package pdftex.def Info: R2-K2A-131.png  used on input line 231.
+(pdftex.def)             Requested size: 318.67209pt x 200.01904pt.
+
+
+[18
+
+ <./R2-K2A-131.png>]
+<R2-K2A-141.png, id=196, 496.254pt x 311.4837pt>
+File: R2-K2A-141.png Graphic file (type png)
+<use R2-K2A-141.png>
+Package pdftex.def Info: R2-K2A-141.png  used on input line 239.
+(pdftex.def)             Requested size: 318.67209pt x 200.01904pt.
+
+
+[19
+
+ <./R2-K2A-141.png>]
+<R2-K2A-151.png, id=204, 496.254pt x 311.4837pt>
+File: R2-K2A-151.png Graphic file (type png)
+<use R2-K2A-151.png>
+Package pdftex.def Info: R2-K2A-151.png  used on input line 247.
+(pdftex.def)             Requested size: 318.67209pt x 200.01904pt.
+
+
+[20
+
+ <./R2-K2A-151.png>])
+\openout2 = `R2-K2B.aux'.
+
+ (R2-K2B.tex
+<R2-K2A-17.png, id=211, 400.99812pt x 287.57437pt>
+File: R2-K2A-17.png Graphic file (type png)
+<use R2-K2A-17.png>
+Package pdftex.def Info: R2-K2A-17.png  used on input line 13.
+(pdftex.def)             Requested size: 239.00558pt x 171.40506pt.
+
+Overfull \vbox (11.36957pt too high) detected at line 13
+ []
+
+
+
+[21
+
+
+
+
+ <./R2-K2A-17.png>]
+<R2-K2B-2.png, id=218, 782.17218pt x 257.46187pt>
+File: R2-K2B-2.png Graphic file (type png)
+<use R2-K2B-2.png>
+Package pdftex.def Info: R2-K2B-2.png  used on input line 22.
+(pdftex.def)             Requested size: 398.3386pt x 131.11916pt.
+
+
+[22
+
+ <./R2-K2B-2.png>]
+<R2-K2B-1.png, id=225, 494.34688pt x 339.2675pt>
+File: R2-K2B-1.png Graphic file (type png)
+<use R2-K2B-1.png>
+Package pdftex.def Info: R2-K2B-1.png  used on input line 46.
+(pdftex.def)             Requested size: 258.91765pt x 177.6936pt.
+
+
 [23
+
+ <./R2-K2B-1.png>]
+
+[24
+
+]
+File: R2-K2B-2.png Graphic file (type png)
+<use R2-K2B-2.png>
+Package pdftex.def Info: R2-K2B-2.png  used on input line 66.
+(pdftex.def)             Requested size: 398.3386pt x 131.11916pt.
+
+
+[25
+
+]
+File: R2-K2B-2.png Graphic file (type png)
+<use R2-K2B-2.png>
+Package pdftex.def Info: R2-K2B-2.png  used on input line 78.
+(pdftex.def)             Requested size: 398.3386pt x 131.11916pt.
+
+
+[26
+
+]
+<R2-K2B-3.png, id=250, 517.18219pt x 277.035pt>
+File: R2-K2B-3.png Graphic file (type png)
+<use R2-K2B-3.png>
+Package pdftex.def Info: R2-K2B-3.png  used on input line 87.
+(pdftex.def)             Requested size: 398.3386pt x 213.38101pt.
+
+Overfull \vbox (9.41687pt too high) detected at line 87
+ []
+
+
+
+[27
+
+ <./R2-K2B-3.png>]
+\openout4 = `main.vrb'.
+
+ (main.vrb (_minted/F82F43FE812CD93975381012FC5B7814.highlight.minted
+LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10> not available
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 5.
+))
+
+[28
+
+]
+<R2-K2B-4.png, id=263, 946.28531pt x 361.35pt>
+File: R2-K2B-4.png Graphic file (type png)
+<use R2-K2B-4.png>
+Package pdftex.def Info: R2-K2B-4.png  used on input line 129.
+(pdftex.def)             Requested size: 358.50229pt x 136.89537pt.
+
+Overfull \vbox (12.87752pt too high) detected at line 129
+ []
+
+
+
+[29
 
  <./R2-K2B-4.png>]
 \openout4 = `main.vrb'.
 
  (main.vrb (_minted/6019505988F23A7B4D05B7CCEA0BABF5.highlight.minted))
-Overfull \vbox (1.75754pt too high) detected at line 131
+Overfull \vbox (1.75754pt too high) detected at line 153
  []
 
 
 
-[24
+[30
 
 ]
-<R2-K2B-5.png, id=232, 648.92438pt x 379.4175pt>
+<R2-K2B-5.png, id=275, 648.92438pt x 379.4175pt>
 File: R2-K2B-5.png Graphic file (type png)
 <use R2-K2B-5.png>
-Package pdftex.def Info: R2-K2B-5.png  used on input line 146.
+Package pdftex.def Info: R2-K2B-5.png  used on input line 168.
 (pdftex.def)             Requested size: 278.83578pt x 163.03055pt.
 
-Overfull \vbox (9.92924pt too high) detected at line 146
+Overfull \vbox (9.92924pt too high) detected at line 168
  []
 
 
 
-[25
+[31
 
  <./R2-K2B-5.png>]
-<R2-K2B-7.png, id=240, 960.58875pt x 362.85562pt>
+<R2-K2B-7.png, id=283, 960.58875pt x 362.85562pt>
 File: R2-K2B-7.png Graphic file (type png)
 <use R2-K2B-7.png>
-Package pdftex.def Info: R2-K2B-7.png  used on input line 159.
+Package pdftex.def Info: R2-K2B-7.png  used on input line 181.
 (pdftex.def)             Requested size: 358.50229pt x 135.42271pt.
 
-Overfull \vbox (2.35966pt too high) detected at line 159
+Overfull \vbox (2.35966pt too high) detected at line 181
  []
 
 
 
-[26
+[32
 
  <./R2-K2B-7.png>]
 \openout4 = `main.vrb'.
 
  (main.vrb (_minted/14AFE0040D1DA8C02F202E1E4177BA29.highlight.minted))
 
-[27
+[33
 
 ]
-<R2-K2B-6.png, id=252, 947.79094pt x 364.36125pt>
+<R2-K2B-6.png, id=295, 947.79094pt x 364.36125pt>
 File: R2-K2B-6.png Graphic file (type png)
 <use R2-K2B-6.png>
-Package pdftex.def Info: R2-K2B-6.png  used on input line 199.
+Package pdftex.def Info: R2-K2B-6.png  used on input line 221.
 (pdftex.def)             Requested size: 318.67209pt x 122.50793pt.
 
 
-[28
+[34
 
  <./R2-K2B-6.png>]
 \openout4 = `main.vrb'.
 
  (main.vrb (_minted/E3DACC2FD14DBD15E14F1BF585BC1F3C.highlight.minted))
 
-[29
+[35
 
 ]
-<R2-K2B-8.png, id=264, 656.4525pt x 457.71pt>
+<R2-K2B-8.png, id=307, 656.4525pt x 457.71pt>
 File: R2-K2B-8.png Graphic file (type png)
 <use R2-K2B-8.png>
-Package pdftex.def Info: R2-K2B-8.png  used on input line 254.
+Package pdftex.def Info: R2-K2B-8.png  used on input line 276.
 (pdftex.def)             Requested size: 219.08743pt x 152.75586pt.
 
 
-[30
+[36
 
  <./R2-K2B-8.png>]
-<R2-K2B-9.png, id=272, 941.01563pt x 367.3725pt>
+<R2-K2B-9.png, id=315, 941.01563pt x 367.3725pt>
 File: R2-K2B-9.png Graphic file (type png)
 <use R2-K2B-9.png>
-Package pdftex.def Info: R2-K2B-9.png  used on input line 266.
+Package pdftex.def Info: R2-K2B-9.png  used on input line 288.
 (pdftex.def)             Requested size: 318.67209pt x 124.40608pt.
 
 
-[31
+[37
 
  <./R2-K2B-9.png>]
-<R2-K2B-10.png, id=281, 959.83594pt x 342.5297pt>
+<R2-K2B-10.png, id=323, 959.83594pt x 342.5297pt>
 File: R2-K2B-10.png Graphic file (type png)
 <use R2-K2B-10.png>
-Package pdftex.def Info: R2-K2B-10.png  used on input line 279.
+Package pdftex.def Info: R2-K2B-10.png  used on input line 301.
 (pdftex.def)             Requested size: 358.50229pt x 127.93611pt.
 
 
-[32
+[38
 
  <./R2-K2B-10.png>]
 \openout4 = `main.vrb'.
 
  (main.vrb (_minted/248D8C1EF655A54D2B9B8C81DF226A21.highlight.minted))
-Overfull \vbox (1.75754pt too high) detected at line 304
+Overfull \vbox (1.75754pt too high) detected at line 326
  []
 
 
 
-[33
+[39
 
 ]
-<R2-K2B-11.png, id=293, 943.27406pt x 340.27126pt>
+<R2-K2B-11.png, id=335, 943.27406pt x 340.27126pt>
 File: R2-K2B-11.png Graphic file (type png)
 <use R2-K2B-11.png>
-Package pdftex.def Info: R2-K2B-11.png  used on input line 324.
+Package pdftex.def Info: R2-K2B-11.png  used on input line 346.
 (pdftex.def)             Requested size: 318.67209pt x 114.95341pt.
 
 
-[34
+[40
 
  <./R2-K2B-11.png>]
 \openout4 = `main.vrb'.
 
- (main.vrb (_minted/8313135D315775C804F2794414AF3E95.highlight.minted
-LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 11.
-))
+ (main.vrb (_minted/8313135D315775C804F2794414AF3E95.highlight.minted))
 
-[35
+[41
 
 ]
 \openout4 = `main.vrb'.
 
  (main.vrb (_minted/B391486245D4814F2CB594A14C04DD6F.highlight.minted))
-Overfull \vbox (1.75754pt too high) detected at line 389
+Overfull \vbox (1.75754pt too high) detected at line 411
  []
 
 
 
-[36
+[42
 
 ]
 \openout4 = `main.vrb'.
 
  (main.vrb (_minted/7BE20645CB484B4FA86ADF83751234D5.highlight.minted))
-Overfull \vbox (1.75754pt too high) detected at line 414
+Overfull \vbox (1.75754pt too high) detected at line 436
  []
 
 
 
-[37
+[43
 
 ])
 \openout2 = `R2-K2C.aux'.
 
  (R2-K2C.tex
-<R2-K2C-1.png, id=317, 533.74406pt x 436.63126pt>
+<R2-K2C-1.png, id=358, 533.74406pt x 436.63126pt>
 File: R2-K2C-1.png Graphic file (type png)
 <use R2-K2C-1.png>
 Package pdftex.def Info: R2-K2C-1.png  used on input line 8.
 (pdftex.def)             Requested size: 199.1693pt x 162.93016pt.
 
 
-[38
+[44
 
 
 
 
  <./R2-K2C-1.png>]
-<R2-K2C-2.png, id=324, 980.91469pt x 332.74312pt>
+<R2-K2C-2.png, id=365, 980.91469pt x 332.74312pt>
 File: R2-K2C-2.png Graphic file (type png)
 <use R2-K2C-2.png>
 Package pdftex.def Info: R2-K2C-2.png  used on input line 23.
 (pdftex.def)             Requested size: 318.67209pt x 108.09961pt.
 
 
-[39
+[45
 
  <./R2-K2C-2.png>]
 
-[40
+[46
 
 ]
-<R2-K2C-3.png, id=337, 898.85812pt x 505.13719pt>
+<R2-K2C-3.png, id=378, 898.85812pt x 505.13719pt>
 File: R2-K2C-3.png Graphic file (type png)
 <use R2-K2C-3.png>
 Package pdftex.def Info: R2-K2C-3.png  used on input line 43.
 (pdftex.def)             Requested size: 358.50229pt x 201.4655pt.
 
 
-[41
+[47
 
  <./R2-K2C-3.png>]
-<R2-K2C-4.png, id=344, 691.83469pt x 286.82156pt>
+<R2-K2C-4.png, id=385, 691.83469pt x 286.82156pt>
 File: R2-K2C-4.png Graphic file (type png)
 <use R2-K2C-4.png>
 Package pdftex.def Info: R2-K2C-4.png  used on input line 50.
 (pdftex.def)             Requested size: 398.3386pt x 165.1443pt.
 
 
-[42
+[48
 
  <./R2-K2C-4.png>]
-<R2-K2C-5.png, id=351, 694.09312pt x 283.81032pt>
+<R2-K2C-5.png, id=392, 694.09312pt x 283.81032pt>
 File: R2-K2C-5.png Graphic file (type png)
 <use R2-K2C-5.png>
 Package pdftex.def Info: R2-K2C-5.png  used on input line 57.
 (pdftex.def)             Requested size: 398.3386pt x 162.88219pt.
 
 
-[43
+[49
 
  <./R2-K2C-5.png>]
-<R2-K2B-12.png, id=359, 252.945pt x 305.64188pt>
+<R2-K2B-12.png, id=400, 252.945pt x 305.64188pt>
 File: R2-K2B-12.png Graphic file (type png)
 <use R2-K2B-12.png>
 Package pdftex.def Info: R2-K2B-12.png  used on input line 75.
 (pdftex.def)             Requested size: 119.50279pt x 144.40254pt.
 
 
-[44
+[50
 
  <./R2-K2B-12.png>]
-<R2-K2C-7.png, id=366, 673.01437pt x 310.15875pt>
+<R2-K2C-7.png, id=407, 673.01437pt x 310.15875pt>
 File: R2-K2C-7.png Graphic file (type png)
 <use R2-K2C-7.png>
 Package pdftex.def Info: R2-K2C-7.png  used on input line 82.
 (pdftex.def)             Requested size: 398.3386pt x 183.57419pt.
 
 
-[45
+[51
 
  <./R2-K2C-7.png>]
 \openout4 = `main.vrb'.
@@ -1664,17 +1725,17 @@ LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <9> not available
 (Font)              Font shape `T1/cmtt/m/n' tried instead on input line 2.
 ))
 
-[46
+[52
 
 ]
-<R2-K2B-13.png, id=380, 533.74406pt x 249.93375pt>
+<R2-K2B-13.png, id=421, 533.74406pt x 249.93375pt>
 File: R2-K2B-13.png Graphic file (type png)
 <use R2-K2B-13.png>
 Package pdftex.def Info: R2-K2B-13.png  used on input line 118.
 (pdftex.def)             Requested size: 239.00558pt x 111.91615pt.
 
 
-[47
+[53
 
  <./R2-K2B-13.png>]
 File: R2-K2B-13.png Graphic file (type png)
@@ -1683,43 +1744,67 @@ Package pdftex.def Info: R2-K2B-13.png  used on input line 128.
 (pdftex.def)             Requested size: 239.00558pt x 111.91615pt.
 
 
-[48
+[54
 
 ]
-<R2-K2C-8.png, id=393, 520.94624pt x 324.46219pt>
+<R2-K2C-8.png, id=434, 520.94624pt x 324.46219pt>
 File: R2-K2C-8.png Graphic file (type png)
 <use R2-K2C-8.png>
-Package pdftex.def Info: R2-K2C-8.png  used on input line 145.
-(pdftex.def)             Requested size: 159.333pt x 99.23558pt.
+Package pdftex.def Info: R2-K2C-8.png  used on input line 150.
+(pdftex.def)             Requested size: 239.00558pt x 148.85834pt.
 
 
-[49
+[55
 
- <./R2-K2C-8.png>])
+ <./R2-K2C-8.png>]
+<R2K1C-4.png, id=442, 469.755pt x 134.5025pt>
+File: R2K1C-4.png Graphic file (type png)
+<use R2K1C-4.png>
+Package pdftex.def Info: R2K1C-4.png  used on input line 159.
+(pdftex.def)             Requested size: 398.3386pt x 114.05469pt.
+
+
+[56
+
+ <./R2K1C-4.png>])
 \openout2 = `R2-K2D.aux'.
 
  (R2-K2D.tex
-<R2-K2A-4.png, id=401, 451.6875pt x 295.85532pt>
+<R2-K2A-3.png, id=449, 591.71063pt x 384.6872pt>
+File: R2-K2A-3.png Graphic file (type png)
+<use R2-K2A-3.png>
+Package pdftex.def Info: R2-K2A-3.png  used on input line 7.
+(pdftex.def)             Requested size: 318.67209pt x 207.18208pt.
+
+Overfull \vbox (3.21794pt too high) detected at line 7
+ []
+
+
+
+[57
+
+
+
+
+ <./R2-K2A-3.png>]
+<R2-K2A-4.png, id=456, 451.6875pt x 295.85532pt>
 File: R2-K2A-4.png Graphic file (type png)
 <use R2-K2A-4.png>
-Package pdftex.def Info: R2-K2A-4.png  used on input line 24.
+Package pdftex.def Info: R2-K2A-4.png  used on input line 31.
 (pdftex.def)             Requested size: 219.08743pt x 143.50319pt.
 
 
-[50
-
-
-
+[58
 
  <./R2-K2A-4.png>]
-<R2-K2A-5.png, id=408, 475.7775pt x 320.69812pt>
+<R2-K2A-5.png, id=463, 475.7775pt x 320.69812pt>
 File: R2-K2A-5.png Graphic file (type png)
 <use R2-K2A-5.png>
-Package pdftex.def Info: R2-K2A-5.png  used on input line 42.
+Package pdftex.def Info: R2-K2A-5.png  used on input line 49.
 (pdftex.def)             Requested size: 219.08743pt x 147.6746pt.
 
 
-[51
+[59
 
  <./R2-K2A-5.png>])
 \tf@nav=\write9
@@ -1740,17 +1825,17 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 57237 strings out of 468133
- 1403940 string characters out of 5425872
+ 57328 strings out of 468133
+ 1405802 string characters out of 5425872
  2033999 words of memory out of 5000000
- 84757 multiletter control sequences out of 15000+600000
+ 84827 multiletter control sequences out of 15000+600000
  653684 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,12n,123p,862b,1082s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\magnus.simonsen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\magnus.simonsen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecit0900.pk> <C:\Users\magnus.simonsen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt0900.pk> <C:\Users\magnus.simonsen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecit1095.pk> <C:\Users\magnus.simonsen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\magnus.simonsen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsi1095.pk> <C:\Users\magnus.simonsen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecit1000.pk> <C:\Users\magnus.simonsen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss0800.pk> <C:\Users\magnus.simonsen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsi1440.pk> <C:\Users\magnus.simonsen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1000.pk> <C:\Users\magnus.simonsen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1000.pk> <C:\Users\magnus.simonsen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1440.pk> <C:\Users\magnus.simonsen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1095.pk> <C:\Users\magnus.simonsen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1095.pk> <C:\Users\magnus.simonsen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss0600.pk> <C:\Users\magnus.simonsen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1440.pk><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi12.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on main.pdf (51 pages, 1937589 bytes).
+ <C:\Users\magnus.simonsen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\magnus.simonsen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecit0900.pk> <C:\Users\magnus.simonsen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt0900.pk> <C:\Users\magnus.simonsen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsi1095.pk> <C:\Users\magnus.simonsen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecit1000.pk> <C:\Users\magnus.simonsen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecit1095.pk> <C:\Users\magnus.simonsen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1095.pk> <C:\Users\magnus.simonsen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss0800.pk> <C:\Users\magnus.simonsen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsi1440.pk> <C:\Users\magnus.simonsen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1000.pk> <C:\Users\magnus.simonsen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1000.pk> <C:\Users\magnus.simonsen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1095.pk> <C:\Users\magnus.simonsen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1095.pk> <C:\Users\magnus.simonsen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss0600.pk> <C:\Users\magnus.simonsen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1440.pk> <C:\Users\magnus.simonsen\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1440.pk><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss12.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi12.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/magnus.simonsen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on main.pdf (59 pages, 2298286 bytes).
 PDF statistics:
- 1017 PDF objects out of 1200 (max. 8388607)
- 103 named destinations out of 1000 (max. 500000)
- 363 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1098 PDF objects out of 1200 (max. 8388607)
+ 119 named destinations out of 1000 (max. 500000)
+ 398 words of extra memory for PDF output out of 10000 (max. 10000000)
 
